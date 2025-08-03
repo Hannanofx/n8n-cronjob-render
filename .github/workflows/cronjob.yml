@@ -3,7 +3,7 @@ name: Keep n8n Alive
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # every 10 minutes UTC
+    - cron: '*/5 * * * *'  # every 5 minutes UTC
   workflow_dispatch:        # allows manual run from GitHub
 
 jobs:
